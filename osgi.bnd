@@ -1,0 +1,17 @@
+Private-Package: 
+Import-Bundle: org.springframework.web;version="[3.0.5.RELEASE,3.1.0.RELEASE]",\
+ org.springframework.web.servlet;version="[3.0.5.RELEASE,3.1.0.RELEASE]",\
+ org.springframework.context;version="[3.0.5.RELEASE,3.1.0.RELEASE]",\
+ org.springframework.beans;version="[3.0.5.RELEASE,3.1.0.RELEASE]",\
+ org.springframework.context.support;version="[3.0.5.RELEASE,3.1.0.RELEASE]",\
+ org.eclipse.virgo.web.dm;version="[3.0.0,3.7)",\
+ com.springsource.com.mysql.jdbc;version="5.1.6",\
+ com.springsource.org.hibernate.validator;version="4.2.0.Final",\
+ com.springsource.javax.validation;version="1.0.0.GA",\
+ com.springsource.javax.servlet.jsp.jstl;version="[1.2.0.v20110728, 1.2.0.v20110728]",\
+ com.springsource.org.codehaus.jackson;version="1.4.3",\
+ com.springsource.org.codehaus.jackson.mapper;version="1.4.3",\
+ com.springsource.com.sun.syndication;version="[1.0.0,1.0.0]"
+Web-ContextPath: /
+Bundle-Classpath: .
+Export-Package: com.osgicn.web.controller;version=${project.version}

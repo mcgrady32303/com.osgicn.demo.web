@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.osgicn.web.controller;uses:="org.springframework.u
+ i,org.springframework.web.bind.annotation,org.springframework.stereot
+ ype,org.slf4j";version="0.1.0.SNAPSHOT"
+Bundle-Classpath: .
+Built-By: YiFei
+Tool: Bnd-0.0.357
+Bundle-Name: com.osgicn.web
+Created-By: Apache Maven Bundle Plugin
+Web-ContextPath: /
+Import-Bundle: org.springframework.web;version="[3.0.5.RELEASE,3.1.0.R
+ ELEASE]",org.springframework.web.servlet;version="[3.0.5.RELEASE,3.1.
+ 0.RELEASE]",org.springframework.context;version="[3.0.5.RELEASE,3.1.0
+ .RELEASE]",org.springframework.beans;version="[3.0.5.RELEASE,3.1.0.RE
+ LEASE]",org.springframework.context.support;version="[3.0.5.RELEASE,3
+ .1.0.RELEASE]",org.eclipse.virgo.web.dm;version="[3.0.0,3.7)",com.spr
+ ingsource.com.mysql.jdbc;version="5.1.6",com.springsource.org.hiberna
+ te.validator;version="4.2.0.Final",com.springsource.javax.validation;
+ version="1.0.0.GA",com.springsource.javax.servlet.jsp.jstl;version="[
+ 1.2.0.v20110728, 1.2.0.v20110728]",com.springsource.org.codehaus.jack
+ son;version="1.4.3",com.springsource.org.codehaus.jackson.mapper;vers
+ ion="1.4.3",com.springsource.com.sun.syndication;version="[1.0.0,1.0.
+ 0]"
+Build-Jdk: 1.6.0_25
+Bundle-Version: 0.1.0.SNAPSHOT
+Bnd-LastModified: 1370500858886
+Bundle-ManifestVersion: 2
+Bundle-Description: com.osgicn.web
+Import-Package: com.osgicn.web.controller;version="0.1",org.slf4j;vers
+ ion="1.6",org.springframework.stereotype;version="3.1",org.springfram
+ ework.ui;version="3.1",org.springframework.web.bind.annotation;versio
+ n="3.1"
+Bundle-SymbolicName: com.osgicn.web
+Originally-Created-By: Apache Maven Bundle Plugin
+
